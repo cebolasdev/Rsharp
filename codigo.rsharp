@@ -1,0 +1,73 @@
+//metodos include
+
+int number = 3;
+print(number);
+
+float decimalNumber = 3.14;
+print(decimalNumber);
+
+string text = "Hello, World!";
+print(text);
+
+char letter = 'A';
+print(letter);
+
+bool flag = true;
+print(flag);
+
+// Operadores aritméticos
+number += 2;
+print(number);
+
+number -= 1;
+print(number);
+
+number *= 2;
+print(number);
+
+number **= 2;
+print(number);
+
+number ^= 2;
+print(number);
+
+number %= 5;
+print(number);
+
+number += 1;
+number /= 2;
+print(number);
+
+// Arrays
+list integerArray = [];
+integerArray.add(12);
+integerArray.add(83);
+print(integerArray);
+int indexAX = 0;
+indexAX = getIndexOfListItem(integerArray, 83);
+print(indexAX);
+sizeList = getSizeOfList(integerArray);
+print(sizeList);
+mm = integerArray[0];
+print(mm);
+mn = integerArray[1];
+print(mn);
+integerArray.delete(0);
+print(integerArray);
+
+
+sizeList = getSizeOfList(integerArray);
+string textsize = "Size: ";
+print(textsize, sizeList, " element(s), thats incredible!");
+
+// Condicionais
+int number = 4;
+if (number == 3) {
+    print("number is 3");
+}
+elseif (number > 5) {
+    print("number is greater than 5");
+}
+else {
+    print("number is not 3 and not greater than 5");
+}
